@@ -4,6 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "dev": "gridsome develop",
+    "start": "http-server ./dist -p 8088 -o",
     "explore": "gridsome explore"
   },
   "dependencies": {
